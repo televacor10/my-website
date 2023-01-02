@@ -67,7 +67,7 @@ body{
     margin-top: 5px;
     padding: 10px;
     background-image: linear-gradient(rgba(135, 0, 150, 0.63), rgba(83, 150, 0, 0.82)),
-     url("images/buddha.jpg");
+     url("../images/buddha.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -168,7 +168,7 @@ ol li{
     border: 2px solid saddlebrown;
     padding: 10px;
     background-image: linear-gradient(rgba(135, 0, 150, 0.63), rgba(83, 150, 0, 0.82)),
-    url("images/lu.jpg");
+    url("../images/lu.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -214,8 +214,22 @@ ol li{
         display: block;
         padding: 20px;
     }
+    
+    #martin{
+        min-width: 450px;
+        justify-content: center;
+        margin-left: 20px;
+        margin-right: 50px;
+        word-wrap: break-word;
+        
+    }
 
-
+    .left1{
+        word-wrap: break-word;
+        justify-content: left;
+        padding-right: 40px;
+    }
+    }
 
     .left{
         display: block;
