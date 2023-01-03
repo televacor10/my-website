@@ -201,6 +201,33 @@ ol li{
     margin-bottom: 20px;
 }
 
+/* *************footer********************* */
+#footer{
+    margin: 5px 90px;
+    background-color: rgba(186, 168, 133, 0.605);
+    height: 50px;
+    
+    
+}
+
+.co-text{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+    word-spacing: 4px;
+}
+
+.co-text a{
+    text-decoration: none;
+}
+.co-text .fa{
+    color: red;
+}
+
+.co-text .myname{
+    color: blue;
+    letter-spacing: 4px;
+}
 
 /*********************media screen*****************/
 
